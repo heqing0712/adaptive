@@ -1,0 +1,25 @@
+{
+  "name": "adptive",
+  "version": "0.0.1",
+  "readmeFilename": "README.md",
+  "description": "mb adptive layout",
+  "homepage": "https://github.com/heqing0712/adptive",
+  "scripts": {
+    "build": "webpack -p",
+    "dev": "webpack -d"
+
+  },
+  "keywords": [
+    "adptive"
+  ],
+  "author": "xiaohe",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heqing0712/adptive.git"
+  },
+  "main": "./dist/adptive.js",
+  "devDependencies": {
+    "webpack": "^2.2.1"
+  },
+  "license": "LGPL-3.0"
+}
