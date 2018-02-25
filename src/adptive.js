@@ -70,7 +70,6 @@ var resize = function () {
 
     if (setHeight) {
 
-        
         style["height"] = height + "px";
         styleAll = doc.querySelector("style[name='adp-style']");
 
@@ -112,8 +111,6 @@ var resize = function () {
 
         docEl.setAttribute("class", classList.join(' '));
     }
-
-
 };
 
 if (meta) {
@@ -132,12 +129,10 @@ if (meta) {
     }
 }
 
-
 minHw = minHeight / width;
 maxHw = maxHeight / width;
 
 window.addEventListener("resize", function () {
-
     clearTimeout(timer);
     timer = setTimeout(resize, 1);
 })
