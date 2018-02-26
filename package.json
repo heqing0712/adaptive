@@ -1,9 +1,9 @@
 {
-  "name": "adptive",
+  "name": "adaptive",
   "version": "0.0.1",
   "readmeFilename": "README.md",
   "description": "mb adptive layout",
-  "homepage": "https://github.com/heqing0712/adptive",
+  "homepage": "https://github.com/heqing0712/adaptive",
   "scripts": {
     "build": "webpack -p",
     "dev": "webpack -d"
@@ -15,9 +15,9 @@
   "author": "xiaohe",
   "repository": {
     "type": "git",
-    "url": "https://github.com/heqing0712/adptive.git"
+    "url": "https://github.com/heqing0712/adaptive.git"
   },
-  "main": "./dist/adptive.js",
+  "main": "./dist/adaptive.js",
   "devDependencies": {
     "webpack": "^2.2.1"
   },

@@ -8,8 +8,9 @@
     doc = window.document,
     docEl = doc.documentElement,
     head = doc.querySelector("head"),
-    meta = doc.querySelector("[name=viewport]"),
-    resize = function () {
+    meta = doc.querySelector("[name=viewport]");
+
+var resize = function () {
 
     var winHw,osName,className,classList,styleAll,
     style = {},
