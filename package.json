@@ -2,7 +2,7 @@
   "name": "adaptive",
   "version": "0.0.1",
   "readmeFilename": "README.md",
-  "description": "mb adptive layout",
+  "description": "mb adaptive layout",
   "homepage": "https://github.com/heqing0712/adaptive",
   "scripts": {
     "build": "webpack -p",

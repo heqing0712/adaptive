@@ -3,14 +3,14 @@ var webpack = require('webpack');
 var version = require('./package.json').version;
 
 module.exports = {
-    entry: './src/adptive.js',
+    entry: './src/adaptive.js',
     output: {
         path: path.resolve(__dirname, './list'),
-        filename: 'adptive.js'
+        filename: 'adaptive.js'
     },
 
     plugins: [
-        new webpack.BannerPlugin('adptive@' + version + ' | https://github.com/heqing0712/adptive')
+        new webpack.BannerPlugin('adaptive@' + version + ' | https://github.com/heqing0712/adaptive')
     ]
 
 };
