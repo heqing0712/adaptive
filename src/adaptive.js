@@ -1,17 +1,14 @@
-﻿var
-    timer, scale,
+﻿
+var timer, scale,
     width = 640,
     doc = window.document,
     query = doc.querySelector,
     setAtr = meta.setAttribute,
     meta = query("[name=viewport]"),
     resize = function () {
-        var
-        content ="",
-        winWidth = window.screen.availWidth,
-        isMb = navigator.userAgent.match(/mobile/i);
-
-        scale = isMb ? winWidth / width : 1;
+        var content = "",
+            isMb = navigator.userAgent.match(/mobile/i);
+        scale = isMb ? window.screen.availWidth / width : 1;
         content += "width=" + width + ",";
         content += "maximum-scale=" + scale + ",";
         content += "user-scalable=no";
