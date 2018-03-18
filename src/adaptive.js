@@ -19,9 +19,14 @@ if (!meta) {
 }
 
 meta.setAttribute("name", "viewport");
+
 window.addEventListener("resize", function () {
-    clearTimeout(timer);
-    timer = setTimeout(resize, 1);
+    resize();
+})
+window.addEventListener('pageshow', function (e) {
+    if (e.persisted) {
+        resize();
+    }
 })
 
 resize();

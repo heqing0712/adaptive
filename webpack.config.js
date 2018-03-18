@@ -3,10 +3,13 @@ var webpack = require('webpack');
 var version = require('./package.json').version;
 
 module.exports = {
-    entry: './src/adaptive.js',
+    entry: {
+        'adaptive': './src/adaptive.js',
+        'adaptivex': './src/adaptivex.js'
+    },
     output: {
         path: path.resolve(__dirname, './list'),
-        filename: 'adaptive.js'
+        filename: '[name].js'
     },
 
     plugins: [
