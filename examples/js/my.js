@@ -31,7 +31,7 @@ $(function () {
 
 
     fl.init();
-    fl.baiduHm();
+    //fl.baiduHm();
 
    
 })
