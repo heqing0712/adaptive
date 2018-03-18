@@ -7,7 +7,6 @@
   "scripts": {
     "build": "webpack -p",
     "dev": "webpack -d"
-
   },
   "keywords": [
     "adptive"

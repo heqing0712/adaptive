@@ -6,7 +6,7 @@
 fl.init = function () {
 
      //更新价格
-     fl.updatePrice($(".cn .num"));
+     //fl.updatePrice($(".cn .num"));
 
 
      //转换为移动端的链接
@@ -17,11 +17,6 @@ fl.init = function () {
      fl.lzImg();
 
 
-     $(".j-win").bind("click", function () {
-         fl.openWin("#" + $(this).data("id"));
-         return false;
-
-     });
 
 
 
