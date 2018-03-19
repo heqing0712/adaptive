@@ -1,6 +1,6 @@
-﻿# webeditor
+﻿# adaptive
 
-webeditor 是一个移动端自适应的插件，引用插件放到html头部head即可。
+adaptive 是一个移动端自适应的插件，引用插件放到html头部head即可。
 原理是，根据屏幕分辨率来修改meta标签的缩放值，从而来实现页面自适应。优点是不需要修改原来px单位的css代码，解决rem布局css逐帧动画1像素缺陷问题 ，缺点是在android下2张切开的图片合并时会有1px的缝隙，ios没有该问题。
 
 
